@@ -1,0 +1,696 @@
+ERROR - 2023-02-05 08:32:05 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:32:05 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:32:10 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:32:10 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:32:39 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:32:39 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:32:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:32:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:33:05 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:33:05 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:33:18 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:33:18 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:36:10 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:36:10 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:37:25 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:37:25 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:39:15 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:39:15 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:40:29 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:40:29 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:40:42 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:40:42 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:40:44 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:40:44 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 08:43:20 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 08:43:20 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 09:07:57 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 09:07:57 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 09:11:27 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 09:11:27 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 09:11:59 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 09:11:59 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 09:12:17 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 09:12:17 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:20:34 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:20:34 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:20:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:20:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:20:51 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:20:51 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:23:11 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:23:11 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:24:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:24:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:24:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:24:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:31:10 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:31:10 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:34:24 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:34:24 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:36:03 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:36:03 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 12:36:04 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 12:36:04 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 13:08:33 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 13:08:33 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 13:08:56 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\CODE IGNITER 4\mebel-backend\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\CODE IGNITER 4\mebel-backend\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\CODE IGNITER 4\mebel-backend\app\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(934): App\Controllers\API->products()
+#5 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#6 D:\CODE IGNITER 4\mebel-backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\CODE IGNITER 4\mebel-backend\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\CODE IGNITER 4\mebel-backend\system\Commands\Server\rewrite.php(47): require_once('D:\\CODE IGNITER...')
+#9 {main}
+CRITICAL - 2023-02-05 13:08:56 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "products"', [], false)
+ 3 APPPATH\Controllers\Api.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\API->products()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
